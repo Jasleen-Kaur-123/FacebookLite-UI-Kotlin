@@ -22,11 +22,11 @@ A lightweight Android social media app inspired by Facebook Lite. This app provi
 3. Build and run the app on your device or emulator
 ````
 
-## 🖼️ Screenshots
+## 📸 Screenshots
 
-**Facebook Lite Login Page**
+### Facebook Lite Login Page
 ![Main Game Screen](Screenshots/LoginPage.png)  
 
-**Facebook Lite Select Gender Page**
+### Facebook Lite Select Gender Page
 ![Result Dialog](Screenshots/SelectGender.png)  
 
