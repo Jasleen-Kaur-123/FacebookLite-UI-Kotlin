@@ -25,8 +25,8 @@ A lightweight Android social media app inspired by Facebook Lite. This app provi
 ## 🖼️ Screenshots
 
 **Facebook Lite Login Page**
-![Main Game Screen](Screenshots/Login_Page.png)  
+![Main Game Screen](Screenshots/LoginPage.png)  
 
 **Facebook Lite Select Gender Page**
-![Result Dialog](Screenshots/Select_Gender.png)  
+![Result Dialog](Screenshots/SelectGender.png)  
 
