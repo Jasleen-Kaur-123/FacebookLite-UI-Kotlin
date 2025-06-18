@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    tools:context=".createnewaccount">
+
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="@string/none"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/volume" />
+
+    <ImageView
+        android:id="@+id/i2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/i1"
+        android:background="@drawable/newacc"
+        android:contentDescription="@string/none"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/join"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/join"
+        android:layout_below="@+id/i2"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/join"
+        android:text="@string/text"
+        android:textColor="#E68F8B61"
+        android:textSize="16sp"
+        android:layout_marginTop="7dp"
+        android:layout_marginStart="23dp"/>
+
+    <TextView
+        android:id="@+id/two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/one"
+        android:layout_centerInParent="true"
+        android:text="@string/easy"
+        android:textColor="#E68F8B61"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/two"
+        android:text="@string/n"
+        android:textSize="18sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:backgroundTint="@color/fblue"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/account"
+        android:textColor="#055FEC"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_below="@+id/b1"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="110dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<resources>
+    <!-- splash screen-->
+    <string name="from">from</string>
+    <!-- login -->
+    <string name="app_name">Project 1</string>
+    <string name="heading">Facebook</string>
+    <string name="mobileandemail">Mobile number or email address</string>
+    <string name="h1">abc@gmail.com</string>
+    <string name="password">Password</string>
+    <string name="h2">XXXXXXXXXX</string>
+    <string name="log">Log in</string>
+    <string name="forget">Forgotten password?</string>
+    <string name="acc">Create New Account</string>
+    <string name="or">------------------------------or-------------------------------</string>
+    <string name="english">English(UK)</string>
+    <string name="hindi">हिन्दी</string>
+    <string name="urdu">اردو</string>
+    <string name="polish">Polski</string>
+    <string name="spanish">Español</string>
+    <string name="more">More Languages...</string>
+    <!-- forget_password -->
+    <string name="find">Find Your Account</string>
+    <string name="phonenumber">Enter your phone Number</string>
+    <string name="ph1">00000000XX</string> <!-- ph1=> page hint 1-->
+    <string name="cancel">Cancel</string>
+    <string name="search">Search</string>
+    <string name="last">Search by your email address or name instead</string>
+    <!-- create_new_account -->
+    <string name="join">Join Facebook</string>
+    <string name="text">We will help you create a new account in a few</string>
+    <string name="easy">easy steps.</string>
+    <string name="n">Next</string>
+    <string name="account">Already have an account?</string>
+    <string name="none">none</string>
+    <!-- after next click - name -->
+    <string name="name">Whats your name?</string>
+    <string name="real">Enter the name you use in real life.</string>
+    <string name="first">First name</string>
+    <string name="surname">Surname</string>
+    <!-- after next click - mobile -->
+    <string name="mobile">Enter your mobile number</string>
+    <string name="mobilel1">Enter the mobile number on which you can be</string>
+    <string name="mobilel2">contacted. You can hide this from your profile</string>
+    <string name="l3">later.</string>
+    <string name="mob">Mobile number</string>
+    <string name="sign">Sign up with email address</string>
+    <!-- after next click - DOB -->
+    <string name="birth">Whats your date of birth?</string>
+    <string name="dobl1">Choose your date of birth. You can always</string>
+    <string name="dobl2">make this private later.</string>
+    <string name="dob">Date of birth</string>
+    <string name="hintfordob">XX-XX-XX</string>
+    <!-- after next click - Gender -->
+    <string name="gender">Whats your gender?</string>
+    <string name="genderl1">You can change who sees your gender on your</string>
+    <string name="genderl2">profile later.</string>
+    <string name="f">Female</string>
+    <string name="m">Male</string>
+    <string name="c">Custom</string>
+    <string name="belowc">Select Custom to choose another gender,or if youd\nrather not say.</string>
+    <!-- after next click - Password -->
+    <string name="pass">Create a password</string>
+    <string name="passwordl1">Create a password with at least 6 characters.It</string>
+    <string name="passwordl2">should be something that others couldnt</string>
+    <string name="passwordl3">guess.</string>
+    <string name="np">New password</string>
+    <string name="pd">*************</string>
+    <!-- Main Activity -->
+    <string name="main"> You finally Successed !!  Enjoy !!</string>
+</resources>

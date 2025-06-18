@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/join"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/join"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="9dp"/>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/join"
+        android:layout_marginTop="6dp"
+        android:background="#83B59292"/>
+
+    <ImageView
+        android:id="@+id/i"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line"/>
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line"
+        android:text="@string/name"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:includeFontPadding="true"
+        android:padding="3dp"/>
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/n"
+        android:textSize="18sp"
+        android:layout_below="@+id/t1"
+        android:gravity="center"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/f"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        android:layout_below="@id/t2"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="25dp"
+        android:includeFontPadding="true"/>
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/t3"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/s"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        android:layout_below="@id/e1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-60dp"
+        android:layout_marginRight="130dp"/>
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/t4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="50dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/e2"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#23529A"
+        android:text="@string/next"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        android:padding="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"/>
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:layout_below="@id/b1"
+        android:layout_marginTop="290dp"
+        android:textColor="#01579B"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:text="@string/acc"/>
+
+</RelativeLayout>
